@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "library-f8088": {
+      "hosting": {
+        "library": [
+          "library-f8088"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "library-f8088"
+  }
+}

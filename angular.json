@@ -88,6 +88,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "library:build:production",
+              "serveTarget": "library:serve:production"
+            },
+            "development": {
+              "buildTarget": "library:build:development",
+              "serveTarget": "library:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }
